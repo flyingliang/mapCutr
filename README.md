@@ -1,4 +1,4 @@
-MapCutr
+[logo]: https://github.com/stromberger/mapCutr/logos-and-etc/logo.png "Logo"
 =======
 
 It´s going :)
