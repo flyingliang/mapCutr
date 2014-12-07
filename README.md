@@ -4,6 +4,8 @@
 It´s going :)
 
 #Install it
+
+**MAC OSX**
 Currently theres only an Installation for Mac OSX (Yosemite).
 
 **1. Get gdal**
