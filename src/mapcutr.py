@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# mapCutr 1.0 alpha - UTF-8
 # TODO: Cleaning the code, refactoring before 1.0 publishing
 
 import os, sys
