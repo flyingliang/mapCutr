@@ -5,8 +5,9 @@ It´s going :)
 
 #Install it
 
-**MAC OSX**
-Currently theres only an Installation for Mac OSX (Yosemite).
+#Mac OSX
+
+Tested on Yosemite
 
 **1. Get gdal**
 
@@ -21,6 +22,35 @@ http://downloads.sourceforge.net/wxpython/wxPython3.0-osx-3.0.2.0-cocoa-py2.7.dm
 *sudo easy_install pp* 
 
 *sudo easy_install wizard*
+
+**Now you can execute mapCutr**
+
+*python mapcutr.py*
+
+#Windows
+
+Should work, not tested
+
+**1. Make sure you have Python installed**
+
+Grab it here: https://www.python.org/downloads/
+
+**2. Get gdal**
+
+Note: Its gdal and Mapserver 
+
+http://www.gisinternals.com/sdk/
+
+**3. Install wxpython**
+
+http://wxpython.org/download.php#msw
+
+**4. Make sure you have all dependencies**
+Open the cmd and write the following commands !
+
+*easy_install pp* 
+
+*easy_install wizard*
 
 **Now you can execute mapCutr**
 
