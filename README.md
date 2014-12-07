@@ -1,7 +1,7 @@
 ![alt text][logo]
 [logo]: https://raw.githubusercontent.com/stromberger/mapCutr/master/logos-and-etc/logo.png "Logo"
 
-It´s going :)
+Wtf !? It works
 
 #Install it
 
