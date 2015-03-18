@@ -1,5 +1,5 @@
 ![alt text][logo]
-[logo]: https://raw.githubusercontent.com/stromberger/mapCutr/master/logos-and-etc/logo.png "Logo"
+[logo]: https://raw.githubusercontent.com/stromberger/mapCutr/master/logo.png "Logo"
 
 Wtf !? It works
 
