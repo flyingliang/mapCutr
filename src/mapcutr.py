@@ -6,7 +6,7 @@ import os, sys
 
 # Where is the executable file on the disk?
 exepath = os.getcwd()
-if hasattr(sys, "frozen") or sys.executable.find('MapTiler.app') != -1:
+if hasattr(sys, "frozen") or sys.executable.find('MapCutr.app') != -1:
 	exepath = os.path.dirname(sys.executable)
 
 # Windows: set the GDAL and PROJ variables ..
@@ -27,7 +27,7 @@ if sys.platform in ['win32','win64']:
 
 # Mac: GDAL.framework is in the application bundle or in the /Library/Frameworks
 if sys.platform == 'darwin' and not os.environ.has_key('GDAL_DATA'):
-	frameworkpath = exepath[:(exepath.find('MapTiler.app')+12)]+'/Contents/Frameworks'
+	frameworkpath = exepath[:(exepath.find('MapCutr.app')+12)]+'/Contents/Frameworks'
 	if not os.path.exists( os.path.join(frameworkpath, "GDAL.framework" )):
 		frameworkpath = "/Library/Frameworks"
 	os.environ['PROJ_LIB'] = os.path.join( frameworkpath, "PROJ.framework/Resources/proj/" )
@@ -51,7 +51,7 @@ class MapTilerApp(wx.App):
 		wx.InitAllImageHandlers()
 		self.main_frame = maptiler.MainFrame(None, -1, "")
 		self.SetTopWindow(self.main_frame)
-		self.SetAppName("MapTiler")
+		self.SetAppName("MapCutr")
 		return True
 		
 	def MacOpenFile(self, filename):
