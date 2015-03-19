@@ -125,7 +125,7 @@ class MainFrame(wx.Frame):
 		self.SetBackgroundColour(wx.Colour(253, 253, 253))
 		for label in self.steplabel[1:]:
 			label.Enable(False)
-		self.label_10.SetForegroundColour(wx.Colour(220, 83, 9))
+		self.label_10.SetForegroundColour(wx.Colour(19, 63, 101))
 		self.label_10.SetFont(wx.Font(18, wx.DEFAULT, wx.NORMAL, wx.BOLD, 0, ""))
 		self.panel_2.SetBackgroundColour(wx.Colour(255, 255, 255))
 		self.panel_1.SetBackgroundColour(wx.Colour(192, 192, 192))
